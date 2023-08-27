@@ -7,7 +7,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="520" Width="750">
     <Grid>
-        
+        <Menu Margin="0,0,0,446" BorderThickness="0,0,1,2" BorderBrush="#FF8D6FB9" Background="#FFCF9CE4">
+            <MenuItem Header="File" FontSize="19" Margin="4,4,0,0" BorderThickness="0,0,2,0" BorderBrush="#FF8D6FB9" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <MenuItem Header="Open" Click="MenuItem_Click" />
+            </MenuItem>
+            <MenuItem Header="Close" FontSize="19" Margin="4,4,0,0" BorderThickness="0,0,2,0" BorderBrush="#FF8D6FB9" HorizontalAlignment="Center" VerticalAlignment="Center">
+            </MenuItem>
+        </Menu>
+        <TextBox x:Name="InfoTextBox" HorizontalAlignment="Center" Margin="0,63,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="666" Height="389" FontSize="20" IsReadOnly="True"/>
+
 
 
 
